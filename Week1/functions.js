@@ -51,15 +51,20 @@
 
 // console.log ("The temperature is " + getFahrenheit(15) + "°F");
 
-// function factorial =(n) => {
-//     if ((n === 0) || (n === 1)) {
-//         return 1;
-//     } else {
-//       return (n * factorial (n-1));
-//     }
-// }
+/* ACTIVITY 1 : Take this code and turn it into arrow function syntax */
 
-// console.log(factorial (33));
+// const factorial = (n) => {
+//     if (n === 0 || n === 1) {
+//       return 1;
+//     } else {
+//       return n * factorial(n - 1);
+//     }
+//   };
+//   console.log(factorial(33));
+
+/* ACTIVITY 2 : Edit the below snippet to include two parameters and a
+running order count updated when the function is called: */
+
 
 // let orderCount = 0;
 // const takeOrder = (topping) => {
@@ -78,23 +83,24 @@
 // }
 
 // takeOrder("pineapple", "ham");
-// takeOrder("pineapple", "ham");
-// takeOrder("pineapple", "ham");
+// takeOrder("pepperoni", "cheese");
 
+/* ACTIVITY 3 :  Dispenses cash if your pin number is correct and your 
+balance is equal to, or more than, the amount you’re trying to withdraw! */
 
-// let pinNum = 4454;
-// let amount = 30;
-// let balance = 100;
+let pinNum = 4454;
+let amount = 30;
+let balance = 100;
 
-// const cashWithdrawal = (amount, pinNum) => {
+const cashWithdrawal = (amount, pinNum) => {
 
-//     if (pinNum = true) {
-//         let newBalance = balance - amount;
-//         console.log (`Withdrawing £ ${amount}, your remaining balance is £ ${newBalance}`);
-//     }
-//     else {
-//         console.log("incorrect pin, no withdrawal available");
-//     }
-// }
+    if (pinNum = true) {
+        let newBalance = balance - amount;
+        console.log (`Withdrawing £ ${amount}, your remaining balance is £ ${newBalance}`);
+    }
+    else {
+        console.log("incorrect pin, no withdrawal available");
+    }
+}
 
-// cashWithdrawal("30",4454);
+cashWithdrawal("30",4454);

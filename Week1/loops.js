@@ -37,26 +37,25 @@
 // }
 // console.log(currentCard);
 
-//6 random numbers between 1/50
+/* ACTIVITY 2: Generate 6 random numbers betwen 1-50 and log them to the console. */
 // let Num = [];
 // for(let i = 0; i < 6; i++){
 // console.log (Math.floor((Math.random()*50)+1)); (Num);
 // }
 
+/* ACTIVITY 3 : If we can create a loop to put 0-9 on the screen,
+how can we count from 9-0? Create a program that does 
+this. */
 
-// loop count 9-0
-// let nums = [];
-
-// for(let i = 0; i < 10; i++){
-//     if (i % 1 == 0){
-//             nums.push(i);
-//     }
+// for (let i = 9; i>=0; i--){
+//   console.log(i)
 // }
 
-// console.log(nums.reverse());
+/* ACTIVITY 4 : Displays 4 films stored in an array. 
+Use a for loop to show each film in the array.
+Use an if statement to check if the 3rd film in the array is Ghostbusters. 
+If it is, return “Yay it’s Ghostbusters”. If it isn’t return “Boo! we want Ghostbusters! */
 
-
-// List 4 movies and find ghost busters
 // let movies = ["Inception", "Bruce Almighty", "Ghost Busters", "King Kong"];
 
 // if (movies[2] == 'Ghost Busters') {
@@ -67,7 +66,10 @@
 // }
 
 
-// generate 6 numbers and advise if divisible by 7 or not
+/* ACTIVITY 5 : Generate a random number between 1 and 30 six times.
+For each random number generated, check if this number of divisible by 7 or not.
+Log out a message to the console if it is divisible by 7 or not. */
+
 for(let i = 0; i < 6; i++){
     genNum = Math.floor((Math.random() * 30) + 1); 
     if(genNum % 7 == 0){
@@ -77,3 +79,22 @@ for(let i = 0; i < 6; i++){
     }
 }   
 
+
+/* ACTIVITY 7 : Research on do...while loop, 
+find out about the difference between 
+for loop, while loop and do...while 
+loop. Give an example of each. 
+What are the pros and cons? 
+
+For loop: Loops a code block while a condition is true
+
+While loop: Loops a code block while a condition is true
+
+do...while loop: Loops a code block once, and then while a condition is true
+Example: 
+do {
+    code block to be executed
+  }
+  while (condition); 
+  
+  */
